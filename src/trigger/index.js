@@ -70,7 +70,7 @@ class Trigger extends PureComponent {
     const { disabled, readOnly, showDropdown } = this.props
 
     const dropdownTriggerClassname = cx({
-      'dropdown-trigger': true,
+      'dropdown-trigger2': true,
       arrow: true,
       disabled,
       readOnly,
