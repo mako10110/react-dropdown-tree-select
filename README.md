@@ -1,4 +1,4 @@
-# react-dropdown-tree-select
+# react-dropdown-tree-select modified to work with materialize.css
 
 ---
 
