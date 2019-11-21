@@ -293,7 +293,7 @@ class DropdownTreeSelect extends Component {
       >
         <div
           className={cx(
-            'dropdown',
+            'dropdown2',
             { 'simple-select': mode === 'simpleSelect' },
             { 'radio-select': mode === 'radioSelect' }
           )}
@@ -313,7 +313,7 @@ class DropdownTreeSelect extends Component {
             />
           </Trigger>
           {showDropdown && (
-            <div className="dropdown-content" {...this.getAriaAttributes()}>
+            <div className="dropdown-content2" {...this.getAriaAttributes()}>
               {this.state.allNodesHidden ? (
                 <span className="no-matches">{texts.noMatches || 'No matches found'}</span>
               ) : (
