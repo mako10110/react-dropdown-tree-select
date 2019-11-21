@@ -4,11 +4,11 @@
 }
 
 .react-dropdown-tree-select {
-  .dropdown {
+  .dropdown2 {
     position: relative;
     display: table;
 
-    .dropdown-trigger {
+    .dropdown-trigger2 {
       padding: 4px;
       line-height: 20px;
       max-height: 200px;
@@ -43,7 +43,7 @@
       }
     }
 
-    .dropdown-content {
+    .dropdown-content2 {
       position: absolute;
       padding: 4px;
       z-index: 1;
